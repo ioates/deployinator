@@ -10,6 +10,6 @@ gem "tlsmail"
 gem "open4"
 
 group :test do
-  gem 'nokogiri', '~> 1.4.7' # for ruby 1.8.6
+  gem 'nokogiri', '~> 1.5.9'
   gem "capybara", "~> 1.1.4"
 end

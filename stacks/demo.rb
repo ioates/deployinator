@@ -2,7 +2,8 @@ module Deployinator
   module Stacks
     module Demo
       def demo_git_repo_url
-        "git://github.com/etsy/statsd.git"
+        # "git://github.com/etsy/statsd.git"
+        "git://localhost/etsy/statsd.git"
       end
 
       def demo_git_checkout_path
